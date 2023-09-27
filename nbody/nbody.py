@@ -76,6 +76,7 @@ def getEnergy( pos, vel, mass, G ):
 	
 	return KE, PE
 
+
 # This file could either be run as a script or used as a module
 # The following code will only be executed if this file
 # is treated as a script
@@ -126,7 +127,7 @@ if __name__== "__main__":
 	# Simulation Main Loop
 	for i in range(Nt):
 
-		# update position & velocity with a drift-kick algorithm
+		# update position & velocity with a leapfrog aka kick-drift-kick algorithm
 		
 		# (1/2) kick
 		vel += acc * dt/2.0
