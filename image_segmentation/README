@@ -1,0 +1,10 @@
+This example is adapted from a lesson written by Dirk Colbry at Michigan State University
+
+Before running `python remove_background.py`, you'll need to download the [COIL-100 dataset](https://www1.cs.columbia.edu/CAVE/software/softlib/coil-100.php).
+
+To download and extract the compressed dataset on the HPCC, run
+```bash
+wget http://www.cs.columbia.edu/CAVE/databases/SLAM_coil-20_coil-100/coil-100/coil-100.zip
+unzip coil-100.zip
+```
+
