@@ -1,0 +1,13 @@
+The datasets used in this example are based off the Great British Baking Show.
+The data was originally made available through the Comprehensive R Archive Network (CRAN)
+as the [bakeoff package](https://cran.r-project.org/web/packages/bakeoff/index.html).
+
+It was downloaded as CSVs from this [list of R sample datasets](https://vincentarelbundock.github.io/Rdatasets/datasets.html).
+This website also has notes about the format of [bakers_raw.csv](https://vincentarelbundock.github.io/Rdatasets/doc/bakeoff/bakers_raw.html) and [results_raw.csv](https://vincentarelbundock.github.io/Rdatasets/doc/bakeoff/results_raw.html).
+
+The script `filter_stars.py` counts how many times a contestant was deemed the "star baker" for the week
+and identifies whether or not they subsequently won that season's competition. Given that the show is British,
+each season is instead called a "series".
+
+The original datasets can be artificially inflated using the Pandas `tile` and `repeat` functions.
+See this [Stack Overflow answer](https://stackoverflow.com/a/47149790).
